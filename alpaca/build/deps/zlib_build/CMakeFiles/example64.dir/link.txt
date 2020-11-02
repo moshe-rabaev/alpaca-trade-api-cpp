@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/example64.dir/test/example.o  -o example64  -Wl,-rpath,/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/zlib_build libz.so.1.2.11 

@@ -1,0 +1,13 @@
+# Target labels
+ rapidjson
+# Source files and their labels
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/rapidjson
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/rapidjson.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/rapidjson-complete.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/rapidjson-stamp/rapidjson-install.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/rapidjson-stamp/rapidjson-mkdir.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/rapidjson-stamp/rapidjson-download.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/rapidjson-stamp/rapidjson-update.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/rapidjson-stamp/rapidjson-patch.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/rapidjson-stamp/rapidjson-configure.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/rapidjson-stamp/rapidjson-build.rule

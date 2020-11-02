@@ -1,0 +1,13 @@
+# Target labels
+ boringssl
+# Source files and their labels
+/home/moshe/alpaca-trade-api-cpp/alpaca/CMakeFiles/boringssl
+/home/moshe/alpaca-trade-api-cpp/alpaca/CMakeFiles/boringssl.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/CMakeFiles/boringssl-complete.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/boringssl-stamp/boringssl-install.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/boringssl-stamp/boringssl-mkdir.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/boringssl-stamp/boringssl-download.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/boringssl-stamp/boringssl-update.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/boringssl-stamp/boringssl-patch.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/boringssl-stamp/boringssl-configure.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/boringssl-stamp/boringssl-build.rule

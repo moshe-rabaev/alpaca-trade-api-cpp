@@ -1,0 +1,13 @@
+# Target labels
+ glog
+# Source files and their labels
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/glog
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/glog.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/glog-complete.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/glog-stamp/glog-install.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/glog-stamp/glog-mkdir.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/glog-stamp/glog-download.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/glog-stamp/glog-update.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/glog-stamp/glog-patch.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/glog-stamp/glog-configure.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/glog-stamp/glog-build.rule

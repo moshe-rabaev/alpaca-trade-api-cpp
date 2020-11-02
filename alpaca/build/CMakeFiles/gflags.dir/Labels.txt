@@ -1,0 +1,13 @@
+# Target labels
+ gflags
+# Source files and their labels
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/gflags
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/gflags.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/gflags-complete.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/gflags-stamp/gflags-install.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/gflags-stamp/gflags-mkdir.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/gflags-stamp/gflags-download.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/gflags-stamp/gflags-update.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/gflags-stamp/gflags-patch.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/gflags-stamp/gflags-configure.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/gflags-stamp/gflags-build.rule

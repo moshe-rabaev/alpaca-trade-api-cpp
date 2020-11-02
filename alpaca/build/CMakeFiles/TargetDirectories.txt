@@ -1,0 +1,17 @@
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/gflags.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/glog.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/boringssl-build.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/zlib-build.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/boringssl.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/libuv-build.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/gtest.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/zlib.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/libuv.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/cpphttplib.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/uWebSockets.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/rebuild_cache.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/rapidjson.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/edit_cache.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/src/CMakeFiles/rebuild_cache.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/src/CMakeFiles/edit_cache.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/src/CMakeFiles/alpacalib.dir

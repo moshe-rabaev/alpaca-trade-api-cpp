@@ -1,0 +1,13 @@
+prefix=/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build
+exec_prefix=/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build
+libdir=/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/lib
+sharedlibdir=/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/lib
+includedir=/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

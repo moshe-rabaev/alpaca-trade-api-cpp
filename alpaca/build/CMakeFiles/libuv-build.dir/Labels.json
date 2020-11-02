@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/libuv-build"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/libuv-build.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/libuv-stamp/libuv-build.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/libuv-stamp/libuv-configure.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/libuv-stamp/libuv-update.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/libuv-stamp/libuv-patch.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/libuv-stamp/libuv-download.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/libuv-stamp/libuv-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libuv"
+		],
+		"name" : "libuv-build"
+	}
+}

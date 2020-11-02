@@ -1,0 +1,216 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: cannot open output file a.out: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+cc1: fatal error: CMakeCCompilerId.c: No such file or directory
+compilation terminated.
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a39a2/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a39a2.dir/build.make CMakeFiles/cmTC_a39a2.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a39a2.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_a39a2.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a39a2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a39a2.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccUnZp9Y.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a39a2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_a39a2.dir/CMakeCCompilerABI.c.o /tmp/ccUnZp9Y.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+Assembler messages:
+Fatal error: can't create CMakeFiles/cmTC_a39a2.dir/CMakeCCompilerABI.c.o: No such file or directory
+make[4]: *** [CMakeFiles/cmTC_a39a2.dir/build.make:66: CMakeFiles/cmTC_a39a2.dir/CMakeCCompilerABI.c.o] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_a39a2/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f31a0/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f31a0.dir/build.make CMakeFiles/cmTC_f31a0.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f31a0.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_f31a0.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f31a0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f31a0.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFAX9XD.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f31a0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_f31a0.dir/CMakeCCompilerABI.c.o /tmp/ccFAX9XD.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+Assembler messages:
+Fatal error: can't create CMakeFiles/cmTC_f31a0.dir/CMakeCCompilerABI.c.o: No such file or directory
+make[4]: *** [CMakeFiles/cmTC_f31a0.dir/build.make:66: CMakeFiles/cmTC_f31a0.dir/CMakeCCompilerABI.c.o] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_f31a0/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+
+
+
+
+Determining if the include file sys/types.h exists failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2c81a/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+make[3]: *** No rule to make target 'cmTC_2c81a/fast'.  Stop.
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d669c/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d669c.dir/build.make CMakeFiles/cmTC_d669c.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+make[4]: CMakeFiles/cmTC_d669c.dir/build.make: No such file or directory
+make[4]: *** No rule to make target 'CMakeFiles/cmTC_d669c.dir/build.make'.  Stop.
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_d669c/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_16e08/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_16e08.dir/build.make CMakeFiles/cmTC_16e08.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16e08.dir/OFF64_T.c.o
+/usr/bin/cc -DHAVE_STDINT_H -D_LARGEFILE64_SOURCE=1   -o CMakeFiles/cmTC_16e08.dir/OFF64_T.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CheckTypeSize/OFF64_T.c:21:22: error: ‘off64_t’ undeclared here (not in a function)
+   21 | #define SIZE (sizeof(off64_t))
+      |                      ^~~~~~~
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:12: note: in expansion of macro ‘SIZE’
+   23 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[4]: *** [CMakeFiles/cmTC_16e08.dir/build.make:66: CMakeFiles/cmTC_16e08.dir/OFF64_T.c.o] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_16e08/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CMakeTmp'
+
+
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <stdint.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

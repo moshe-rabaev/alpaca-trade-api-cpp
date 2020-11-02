@@ -1,0 +1,3 @@
+/home/moshe/alpaca-trade-api-cpp/alpaca/src/CMakeFiles/rebuild_cache.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/src/CMakeFiles/edit_cache.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/src/CMakeFiles/alpacalib.dir

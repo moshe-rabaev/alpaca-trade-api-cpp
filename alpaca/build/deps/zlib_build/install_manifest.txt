@@ -1,0 +1,8 @@
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/zlib_build/lib/libz.so.1.2.11
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/zlib_build/lib/libz.so.1
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/zlib_build/lib/libz.so
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/zlib_build/lib/libz.a
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/zlib_build/include/zconf.h
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/zlib_build/include/zlib.h
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/zlib_build/share/man/man3/zlib.3
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/zlib_build/share/pkgconfig/zlib.pc

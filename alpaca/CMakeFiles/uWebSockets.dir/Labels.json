@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/CMakeFiles/uWebSockets"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/CMakeFiles/uWebSockets.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/CMakeFiles/uWebSockets-complete.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/uWebSockets-stamp/uWebSockets-install.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/uWebSockets-stamp/uWebSockets-mkdir.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/uWebSockets-stamp/uWebSockets-download.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/uWebSockets-stamp/uWebSockets-update.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/uWebSockets-stamp/uWebSockets-patch.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/uWebSockets-stamp/uWebSockets-configure.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/uWebSockets-stamp/uWebSockets-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"uWebSockets"
+		],
+		"name" : "uWebSockets"
+	}
+}

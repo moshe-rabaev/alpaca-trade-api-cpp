@@ -1,0 +1,2 @@
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/cpphttplib_build/include/httplib/httplib.h
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/cpphttplib_build/share/httplib/cmake/httplibConfig.cmake

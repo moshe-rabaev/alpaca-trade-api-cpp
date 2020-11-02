@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/CMakeFiles/cpphttplib"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/CMakeFiles/cpphttplib.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/CMakeFiles/cpphttplib-complete.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/cpphttplib-stamp/cpphttplib-install.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/cpphttplib-stamp/cpphttplib-mkdir.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/cpphttplib-stamp/cpphttplib-download.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/cpphttplib-stamp/cpphttplib-update.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/cpphttplib-stamp/cpphttplib-patch.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/cpphttplib-stamp/cpphttplib-configure.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/cpphttplib-stamp/cpphttplib-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpphttplib"
+		],
+		"name" : "cpphttplib"
+	}
+}

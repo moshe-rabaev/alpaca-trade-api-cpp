@@ -1,0 +1,9 @@
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/gflags_build/lib/cmake/gflags/gflags-config.cmake
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/gflags_build/lib/cmake/gflags/gflags-config-version.cmake
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/gflags_build/lib/cmake/gflags/gflags-targets.cmake
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/gflags_build/lib/cmake/gflags/gflags-targets-release.cmake
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/gflags_build/lib/cmake/gflags/gflags-nonamespace-targets.cmake
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/gflags_build/lib/cmake/gflags/gflags-nonamespace-targets-release.cmake
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/gflags_build/bin/gflags_completions.sh
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/gflags_build/lib/pkgconfig/gflags.pc
+/home/moshe/.cmake/packages/gflags/87ad7b32137531eda33d2e74e8f3c2da

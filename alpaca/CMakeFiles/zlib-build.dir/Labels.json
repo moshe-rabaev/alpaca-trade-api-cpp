@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/CMakeFiles/zlib-build"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/CMakeFiles/zlib-build.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/zlib-stamp/zlib-build.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/zlib-stamp/zlib-configure.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/zlib-stamp/zlib-update.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/zlib-stamp/zlib-patch.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/zlib-stamp/zlib-download.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/zlib-stamp/zlib-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"zlib"
+		],
+		"name" : "zlib-build"
+	}
+}

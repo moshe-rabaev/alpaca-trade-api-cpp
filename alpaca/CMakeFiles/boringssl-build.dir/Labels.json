@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/CMakeFiles/boringssl-build"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/CMakeFiles/boringssl-build.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/boringssl-stamp/boringssl-build.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/boringssl-stamp/boringssl-configure.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/boringssl-stamp/boringssl-update.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/boringssl-stamp/boringssl-patch.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/boringssl-stamp/boringssl-download.rule"
+		},
+		{
+			"file" : "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/src/boringssl-stamp/boringssl-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boringssl"
+		],
+		"name" : "boringssl-build"
+	}
+}

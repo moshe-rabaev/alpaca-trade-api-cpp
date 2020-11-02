@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/zlib/test/example.c
+zlib.h
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/zlib/test/zlib.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/zlib/zlib.h
+zconf.h
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/zlib/zconf.h
+
+zconf.h
+stddef.h
+-
+windows.h
+-
+limits.h
+-
+sys/types.h
+-
+stdarg.h
+-
+stddef.h
+-
+unistd.h
+-
+unixio.h
+-
+

@@ -1,0 +1,11 @@
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/install/strip.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/install/local.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/install.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/list_install_components.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/rebuild_cache.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/edit_cache.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/test.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/minigzip.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/example.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/zlibstatic.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/zlib_build/CMakeFiles/zlib.dir

@@ -1,5 +1,0 @@
-/home/moshe/alpaca-trade-api-cpp/build/CMakeFiles/rebuild_cache.dir
-/home/moshe/alpaca-trade-api-cpp/build/CMakeFiles/edit_cache.dir
-/home/moshe/alpaca-trade-api-cpp/build/CMakeFiles/glog.dir
-/home/moshe/alpaca-trade-api-cpp/build/CMakeFiles/alpacalib.dir
-/home/moshe/alpaca-trade-api-cpp/build/CMakeFiles/gtest.dir

@@ -1,0 +1,1406 @@
+The system is: Linux - 5.4.0-52-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_daac6/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_daac6.dir/build.make CMakeFiles/cmTC_daac6.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_daac6.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_daac6.dir/testCCompiler.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_daac6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daac6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_daac6.dir/testCCompiler.c.o  -o cmTC_daac6 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cefc9/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cefc9.dir/build.make CMakeFiles/cmTC_cefc9.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccsOmP0m.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o /tmp/ccsOmP0m.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_cefc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cefc9.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o  -o cmTC_cefc9 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cefc9' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrA8YLW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cefc9 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cefc9' '-mtune=generic' '-march=x86-64'
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_cefc9/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cefc9.dir/build.make CMakeFiles/cmTC_cefc9.dir/build]
+  ignore line: [make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccsOmP0m.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.1.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.1.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o /tmp/ccsOmP0m.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_cefc9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cefc9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o  -o cmTC_cefc9 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cefc9' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrA8YLW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cefc9 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrA8YLW.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cefc9] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_cefc9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_54b3f/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_54b3f.dir/build.make CMakeFiles/cmTC_54b3f.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_54b3f.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_54b3f.dir/testCXXCompiler.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_54b3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54b3f.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_54b3f.dir/testCXXCompiler.cxx.o  -o cmTC_54b3f 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_34748/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_34748.dir/build.make CMakeFiles/cmTC_34748.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccPKJs4q.s
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPKJs4q.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_34748
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34748.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_34748 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_34748' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmD7oyw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_34748 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_34748' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_34748/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_34748.dir/build.make CMakeFiles/cmTC_34748.dir/build]
+  ignore line: [make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccPKJs4q.s]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.1.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.1.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPKJs4q.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_34748]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34748.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_34748 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_34748' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmD7oyw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_34748 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmD7oyw.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_34748] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_34748.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_67ca5/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_67ca5.dir/build.make CMakeFiles/cmTC_67ca5.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67ca5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_67ca5.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_67ca5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ca5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_67ca5.dir/CheckIncludeFile.c.o  -o cmTC_67ca5 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_186ed/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_186ed.dir/build.make CMakeFiles/cmTC_186ed.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_186ed.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_186ed.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_186ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_186ed.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_186ed.dir/CheckFunctionExists.c.o  -o cmTC_186ed  -lpthread 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7b2f9/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7b2f9.dir/build.make CMakeFiles/cmTC_7b2f9.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b2f9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7b2f9.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7b2f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b2f9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7b2f9.dir/CheckIncludeFile.c.o  -o cmTC_7b2f9 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_330cd/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_330cd.dir/build.make CMakeFiles/cmTC_330cd.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_330cd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_330cd.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_330cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_330cd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_330cd.dir/CheckIncludeFile.c.o  -o cmTC_330cd 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8ee9b/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8ee9b.dir/build.make CMakeFiles/cmTC_8ee9b.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ee9b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8ee9b.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8ee9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ee9b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8ee9b.dir/CheckIncludeFile.c.o  -o cmTC_8ee9b 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_79008/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_79008.dir/build.make CMakeFiles/cmTC_79008.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79008.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_79008.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_79008
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79008.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_79008.dir/CheckIncludeFile.c.o  -o cmTC_79008 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_00d02/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_00d02.dir/build.make CMakeFiles/cmTC_00d02.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00d02.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_00d02.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_00d02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00d02.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_00d02.dir/CheckIncludeFile.c.o  -o cmTC_00d02 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76d02/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_76d02.dir/build.make CMakeFiles/cmTC_76d02.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76d02.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_76d02.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_76d02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76d02.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_76d02.dir/CheckIncludeFile.c.o  -o cmTC_76d02 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_29de6/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_29de6.dir/build.make CMakeFiles/cmTC_29de6.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29de6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_29de6.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_29de6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29de6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_29de6.dir/CheckIncludeFile.c.o  -o cmTC_29de6 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f38cb/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f38cb.dir/build.make CMakeFiles/cmTC_f38cb.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f38cb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f38cb.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f38cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f38cb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f38cb.dir/CheckIncludeFile.c.o  -o cmTC_f38cb 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fb368/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fb368.dir/build.make CMakeFiles/cmTC_fb368.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb368.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fb368.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fb368
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb368.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fb368.dir/CheckIncludeFile.c.o  -o cmTC_fb368 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cce29/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cce29.dir/build.make CMakeFiles/cmTC_cce29.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cce29.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cce29.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cce29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cce29.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cce29.dir/CheckIncludeFile.c.o  -o cmTC_cce29 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5a309/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5a309.dir/build.make CMakeFiles/cmTC_5a309.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a309.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5a309.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5a309
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a309.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5a309.dir/CheckIncludeFile.c.o  -o cmTC_5a309 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_969fa/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_969fa.dir/build.make CMakeFiles/cmTC_969fa.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_969fa.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_969fa.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_969fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_969fa.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_969fa.dir/CheckIncludeFile.c.o  -o cmTC_969fa 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_077ff/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_077ff.dir/build.make CMakeFiles/cmTC_077ff.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_077ff.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_077ff.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_077ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_077ff.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_077ff.dir/CheckIncludeFile.c.o  -o cmTC_077ff 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_320ef/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_320ef.dir/build.make CMakeFiles/cmTC_320ef.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_320ef.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_320ef.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_320ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_320ef.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_320ef.dir/CheckIncludeFile.c.o  -o cmTC_320ef 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_29a7a/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_29a7a.dir/build.make CMakeFiles/cmTC_29a7a.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29a7a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_29a7a.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_29a7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29a7a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_29a7a.dir/CheckIncludeFile.c.o  -o cmTC_29a7a 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file syscall.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_01459/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_01459.dir/build.make CMakeFiles/cmTC_01459.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01459.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_01459.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_01459
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01459.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_01459.dir/CheckIncludeFile.c.o  -o cmTC_01459 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8edfe/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8edfe.dir/build.make CMakeFiles/cmTC_8edfe.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8edfe.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8edfe.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8edfe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8edfe.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8edfe.dir/CheckIncludeFile.c.o  -o cmTC_8edfe 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ucontext.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0a4e3/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0a4e3.dir/build.make CMakeFiles/cmTC_0a4e3.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a4e3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0a4e3.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0a4e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a4e3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0a4e3.dir/CheckIncludeFile.c.o  -o cmTC_0a4e3 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1716d/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1716d.dir/build.make CMakeFiles/cmTC_1716d.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1716d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1716d.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1716d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1716d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1716d.dir/CheckIncludeFile.c.o  -o cmTC_1716d 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unwind.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48668/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_48668.dir/build.make CMakeFiles/cmTC_48668.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48668.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_48668.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_48668
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48668.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_48668.dir/CheckIncludeFile.c.o  -o cmTC_48668 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ext/hash_map exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0b4ee/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0b4ee.dir/build.make CMakeFiles/cmTC_0b4ee.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0b4ee.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_0b4ee.dir/CheckIncludeFile.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/9/ext/hash_map:60,
+                 from /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/9/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_0b4ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b4ee.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0b4ee.dir/CheckIncludeFile.cxx.o  -o cmTC_0b4ee 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ext/hash_set exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f10c9/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f10c9.dir/build.make CMakeFiles/cmTC_f10c9.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f10c9.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f10c9.dir/CheckIncludeFile.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/9/ext/hash_set:60,
+                 from /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/9/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_f10c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f10c9.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f10c9.dir/CheckIncludeFile.cxx.o  -o cmTC_f10c9 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ext/slist exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_66941/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_66941.dir/build.make CMakeFiles/cmTC_66941.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_66941.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_66941.dir/CheckIncludeFile.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_66941
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66941.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_66941.dir/CheckIncludeFile.cxx.o  -o cmTC_66941 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file tr1/unordered_map exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e6383/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e6383.dir/build.make CMakeFiles/cmTC_e6383.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6383.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e6383.dir/CheckIncludeFile.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e6383
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6383.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e6383.dir/CheckIncludeFile.cxx.o  -o cmTC_e6383 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file tr1/unordered_set exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc071/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cc071.dir/build.make CMakeFiles/cmTC_cc071.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc071.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_cc071.dir/CheckIncludeFile.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_cc071
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc071.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_cc071.dir/CheckIncludeFile.cxx.o  -o cmTC_cc071 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e972a/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e972a.dir/build.make CMakeFiles/cmTC_e972a.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e972a.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e972a.dir/CheckIncludeFile.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e972a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e972a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e972a.dir/CheckIncludeFile.cxx.o  -o cmTC_e972a 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a2b7/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4a2b7.dir/build.make CMakeFiles/cmTC_4a2b7.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a2b7.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_4a2b7.dir/CheckIncludeFile.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_4a2b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a2b7.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4a2b7.dir/CheckIncludeFile.cxx.o  -o cmTC_4a2b7 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_14681/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_14681.dir/build.make CMakeFiles/cmTC_14681.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14681.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_14681.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_14681
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14681.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_14681.dir/CheckIncludeFile.c.o  -o cmTC_14681 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d1d92/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d1d92.dir/build.make CMakeFiles/cmTC_d1d92.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1d92.dir/HAVE_U_INT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d1d92.dir/HAVE_U_INT16_T.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE_U_INT16_T.c
+Linking C executable cmTC_d1d92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1d92.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d1d92.dir/HAVE_U_INT16_T.c.o  -o cmTC_d1d92 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e8f8/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7e8f8.dir/build.make CMakeFiles/cmTC_7e8f8.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e8f8.dir/HAVE_UINT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7e8f8.dir/HAVE_UINT16_T.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.c
+Linking C executable cmTC_7e8f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e8f8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7e8f8.dir/HAVE_UINT16_T.c.o  -o cmTC_7e8f8 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_29898/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_29898.dir/build.make CMakeFiles/cmTC_29898.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29898.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fcntl   -o CMakeFiles/cmTC_29898.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_29898
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29898.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fcntl    -rdynamic CMakeFiles/cmTC_29898.dir/CheckFunctionExists.c.o  -o cmTC_29898 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c2610/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c2610.dir/build.make CMakeFiles/cmTC_c2610.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2610.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pread   -o CMakeFiles/cmTC_c2610.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c2610
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2610.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pread    -rdynamic CMakeFiles/cmTC_c2610.dir/CheckFunctionExists.c.o  -o cmTC_c2610 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1d444/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1d444.dir/build.make CMakeFiles/cmTC_1d444.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d444.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pwrite   -o CMakeFiles/cmTC_1d444.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1d444
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d444.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pwrite    -rdynamic CMakeFiles/cmTC_1d444.dir/CheckFunctionExists.c.o  -o cmTC_1d444 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a2dd9/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a2dd9.dir/build.make CMakeFiles/cmTC_a2dd9.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2dd9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_a2dd9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a2dd9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2dd9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction    -rdynamic CMakeFiles/cmTC_a2dd9.dir/CheckFunctionExists.c.o  -o cmTC_a2dd9 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sigaltstack exists passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_55164/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_55164.dir/build.make CMakeFiles/cmTC_55164.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55164.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaltstack   -o CMakeFiles/cmTC_55164.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_55164
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55164.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaltstack    -rdynamic CMakeFiles/cmTC_55164.dir/CheckFunctionExists.c.o  -o cmTC_55164 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED succeeded with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_39b59/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_39b59.dir/build.make CMakeFiles/cmTC_39b59.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39b59.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_NO_DEPRECATED   -Wdeprecated -o CMakeFiles/cmTC_39b59.dir/src.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_39b59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39b59.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_NO_DEPRECATED    -rdynamic CMakeFiles/cmTC_39b59.dir/src.cxx.o  -o cmTC_39b59 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bb44d/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bb44d.dir/build.make CMakeFiles/cmTC_bb44d.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb44d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bb44d.dir/CheckSymbolExists.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bb44d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb44d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bb44d.dir/CheckSymbolExists.c.o  -o cmTC_bb44d 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+File /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__ succeeded with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ae69/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9ae69.dir/build.make CMakeFiles/cmTC_9ae69.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ae69.dir/src.c.o
+/usr/bin/cc   -DHAVE___ATTRIBUTE__   -o CMakeFiles/cmTC_9ae69.dir/src.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9ae69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ae69.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE___ATTRIBUTE__    -rdynamic CMakeFiles/cmTC_9ae69.dir/src.c.o  -o cmTC_9ae69 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((unused));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT succeeded with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_289c8/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_289c8.dir/build.make CMakeFiles/cmTC_289c8.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_289c8.dir/src.c.o
+/usr/bin/cc   -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT   -o CMakeFiles/cmTC_289c8.dir/src.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.c
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.c:3:1: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("default")));
+      | ^~~~~~
+Linking C executable cmTC_289c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_289c8.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT    -rdynamic CMakeFiles/cmTC_289c8.dir/src.c.o  -o cmTC_289c8 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((visibility("default")));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f1465/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f1465.dir/build.make CMakeFiles/cmTC_f1465.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1465.dir/src.c.o
+/usr/bin/cc   -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN   -o CMakeFiles/cmTC_f1465.dir/src.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.c
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.c:3:1: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("hidden")));
+      | ^~~~~~
+Linking C executable cmTC_f1465
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1465.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN    -rdynamic CMakeFiles/cmTC_f1465.dir/src.c.o  -o cmTC_f1465 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((visibility("hidden")));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c33f4/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c33f4.dir/build.make CMakeFiles/cmTC_c33f4.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c33f4.dir/src.c.o
+/usr/bin/cc   -DHAVE___BUILTIN_EXPECT   -o CMakeFiles/cmTC_c33f4.dir/src.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c33f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c33f4.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE___BUILTIN_EXPECT    -rdynamic CMakeFiles/cmTC_c33f4.dir/src.c.o  -o cmTC_c33f4 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+int main(void) { if (__builtin_expect(0, 0)) return 1; return 0; }
+
+Performing C SOURCE FILE Test HAVE___SYNC_VAL_COMPARE_AND_SWAP succeeded with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_be899/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_be899.dir/build.make CMakeFiles/cmTC_be899.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be899.dir/src.c.o
+/usr/bin/cc   -DHAVE___SYNC_VAL_COMPARE_AND_SWAP   -o CMakeFiles/cmTC_be899.dir/src.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_be899
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be899.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE___SYNC_VAL_COMPARE_AND_SWAP    -rdynamic CMakeFiles/cmTC_be899.dir/src.c.o  -o cmTC_be899 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+int main(void)
+{
+  int a; if (__sync_val_compare_and_swap(&a, 0, 1)) return 1; return 0;
+}
+
+Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_00312/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_00312.dir/build.make CMakeFiles/cmTC_00312.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_00312.dir/src.cxx.o
+/usr/bin/c++    -DSTL_STD_NAMESPACE   -o CMakeFiles/cmTC_00312.dir/src.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_00312
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00312.dir/link.txt --verbose=1
+/usr/bin/c++   -DSTL_STD_NAMESPACE    -rdynamic CMakeFiles/cmTC_00312.dir/src.cxx.o  -o cmTC_00312 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <vector>
+std::vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_742d1/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_742d1.dir/build.make CMakeFiles/cmTC_742d1.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_742d1.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_USING_OPERATOR   -o CMakeFiles/cmTC_742d1.dir/src.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_742d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_742d1.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_USING_OPERATOR    -rdynamic CMakeFiles/cmTC_742d1.dir/src.cxx.o  -o cmTC_742d1 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <iostream>
+std::ostream& operator<<(std::ostream&, struct s);
+using ::operator<<;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52102/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_52102.dir/build.make CMakeFiles/cmTC_52102.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52102.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_NAMESPACES   -o CMakeFiles/cmTC_52102.dir/src.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_52102
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52102.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_NAMESPACES    -rdynamic CMakeFiles/cmTC_52102.dir/src.cxx.o  -o cmTC_52102 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+namespace Outer { namespace Inner { int i = 0; }}
+using namespace Outer::Inner;;
+int main() { return i; }
+
+Performing C++ SOURCE FILE Test HAVE_GCC_TLS succeeded with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2b24b/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2b24b.dir/build.make CMakeFiles/cmTC_2b24b.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b24b.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_GCC_TLS   -o CMakeFiles/cmTC_2b24b.dir/src.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2b24b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b24b.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_GCC_TLS    -rdynamic CMakeFiles/cmTC_2b24b.dir/src.cxx.o  -o cmTC_2b24b 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+__thread int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_TLS succeeded with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0e2fd/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0e2fd.dir/build.make CMakeFiles/cmTC_0e2fd.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0e2fd.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX11_TLS   -o CMakeFiles/cmTC_0e2fd.dir/src.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0e2fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e2fd.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX11_TLS    -rdynamic CMakeFiles/cmTC_0e2fd.dir/src.cxx.o  -o cmTC_0e2fd 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+thread_local int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_ALIGNED_STORAGE succeeded with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5e49f/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5e49f.dir/build.make CMakeFiles/cmTC_5e49f.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e49f.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_ALIGNED_STORAGE   -o CMakeFiles/cmTC_5e49f.dir/src.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5e49f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e49f.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_ALIGNED_STORAGE    -rdynamic CMakeFiles/cmTC_5e49f.dir/src.cxx.o  -o cmTC_5e49f 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+std::aligned_storage<sizeof(char), alignof(char)>::type data;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_LOCALTIME_R succeeded with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_112b8/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_112b8.dir/build.make CMakeFiles/cmTC_112b8.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_112b8.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_LOCALTIME_R   -o CMakeFiles/cmTC_112b8.dir/src.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_112b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_112b8.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_LOCALTIME_R    -rdynamic CMakeFiles/cmTC_112b8.dir/src.cxx.o  -o cmTC_112b8 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <cstdlib>
+#include <time.h>
+int main()
+{
+    time_t timep;
+    struct tm result;
+    localtime_r(&timep, &result);
+    return EXIT_SUCCESS;
+}
+
+Determining the gflags namespace passed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1504e/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1504e.dir/build.make CMakeFiles/cmTC_1504e.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1504e.dir/DetermineGflagsNamespace.cxx.o
+/usr/bin/c++  -DGFLAGS_IS_A_DLL=0 -DGLOG_GFLAGS_NAMESPACE=gflags -isystem /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/gflags_build/include  -O3 -DNDEBUG   -o CMakeFiles/cmTC_1504e.dir/DetermineGflagsNamespace.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp/DetermineGflagsNamespace.cxx
+Linking CXX executable cmTC_1504e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1504e.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_1504e.dir/DetermineGflagsNamespace.cxx.o  -o cmTC_1504e  /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/gflags_build/lib/libgflags_nothreads.a 
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+

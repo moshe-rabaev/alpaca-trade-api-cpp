@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/stl_logging_unittest.dir/src/stl_logging_unittest.cc.o  -o stl_logging_unittest  libglog.a -lpthread /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/gflags_build/lib/libgflags_nothreads.a 

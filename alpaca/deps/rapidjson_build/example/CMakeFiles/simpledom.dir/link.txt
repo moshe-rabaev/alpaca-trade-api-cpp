@@ -1,0 +1,1 @@
+/usr/bin/c++  -w -march=native -Wall -Wextra -Werror -std=c++11 -pthread -Werror -Wall -Wextra -Weffc++ -Wswitch-default -O3 -DNDEBUG  -rdynamic CMakeFiles/simpledom.dir/simpledom/simpledom.cpp.o  -o ../bin/simpledom 

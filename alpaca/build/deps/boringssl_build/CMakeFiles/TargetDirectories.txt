@@ -1,0 +1,5 @@
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/boringssl_build/CMakeFiles/rebuild_cache.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/boringssl_build/CMakeFiles/edit_cache.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/boringssl_build/CMakeFiles/bssl.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/boringssl_build/CMakeFiles/ssl.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/boringssl_build/CMakeFiles/crypto.dir

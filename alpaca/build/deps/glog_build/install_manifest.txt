@@ -1,0 +1,10 @@
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/lib/libglog.a
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/include/glog/logging.h
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/include/glog/raw_logging.h
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/include/glog/stl_logging.h
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/include/glog/vlog_is_on.h
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/include/glog/log_severity.h
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/lib/cmake/glog/glog-config.cmake
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/lib/cmake/glog/glog-config-version.cmake
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/lib/cmake/glog/glog-targets.cmake
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/lib/cmake/glog/glog-targets-release.cmake

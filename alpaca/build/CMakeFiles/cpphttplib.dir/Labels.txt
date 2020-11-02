@@ -1,0 +1,13 @@
+# Target labels
+ cpphttplib
+# Source files and their labels
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/cpphttplib
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/cpphttplib.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/CMakeFiles/cpphttplib-complete.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/cpphttplib-stamp/cpphttplib-install.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/cpphttplib-stamp/cpphttplib-mkdir.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/cpphttplib-stamp/cpphttplib-download.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/cpphttplib-stamp/cpphttplib-update.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/cpphttplib-stamp/cpphttplib-patch.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/cpphttplib-stamp/cpphttplib-configure.rule
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/src/cpphttplib-stamp/cpphttplib-build.rule

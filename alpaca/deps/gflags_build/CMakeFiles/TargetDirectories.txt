@@ -1,0 +1,11 @@
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/gflags_build/CMakeFiles/install/strip.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/gflags_build/CMakeFiles/install/local.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/gflags_build/CMakeFiles/install.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/gflags_build/CMakeFiles/list_install_components.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/gflags_build/CMakeFiles/rebuild_cache.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/gflags_build/CMakeFiles/edit_cache.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/gflags_build/CMakeFiles/uninstall.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/gflags_build/CMakeFiles/gflags_nothreads.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/gflags_build/CMakeFiles/gflags_nothreads_static.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/gflags_build/CMakeFiles/gflags.dir
+/home/moshe/alpaca-trade-api-cpp/alpaca/deps/gflags_build/CMakeFiles/gflags_static.dir

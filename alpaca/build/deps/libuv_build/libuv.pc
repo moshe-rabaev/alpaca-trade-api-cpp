@@ -1,0 +1,12 @@
+prefix=/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/libuv_build
+exec_prefix=${prefix}
+libdir=/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/libuv_build/lib
+includedir=/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/libuv_build/include
+
+Name: libuv
+Version: 1.23.2
+Description: multi-platform support library with a focus on asynchronous I/O.
+URL: http://libuv.org/
+
+Libs: -L${libdir} -luv  -lpthread -ldl -lrt
+Cflags: -I${includedir}

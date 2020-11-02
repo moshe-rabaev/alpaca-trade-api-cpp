@@ -1,0 +1,364 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8c2e6/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8c2e6.dir/build.make CMakeFiles/cmTC_8c2e6.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c2e6.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8c2e6.dir/src.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8c2e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c2e6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_8c2e6.dir/src.c.o  -o cmTC_8c2e6 
+/usr/bin/ld: CMakeFiles/cmTC_8c2e6.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[4]: *** [CMakeFiles/cmTC_8c2e6.dir/build.make:87: cmTC_8c2e6] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_8c2e6/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c60e3/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c60e3.dir/build.make CMakeFiles/cmTC_c60e3.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c60e3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c60e3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c60e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c60e3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c60e3.dir/CheckFunctionExists.c.o  -o cmTC_c60e3  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[4]: *** [CMakeFiles/cmTC_c60e3.dir/build.make:87: cmTC_c60e3] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_c60e3/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_628c2/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_628c2.dir/build.make CMakeFiles/cmTC_628c2.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_628c2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_628c2.dir/CheckIncludeFile.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: libunwind.h: No such file or directory
+    1 | #include <libunwind.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make[4]: *** [CMakeFiles/cmTC_628c2.dir/build.make:66: CMakeFiles/cmTC_628c2.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_628c2/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a9dd8/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a9dd8.dir/build.make CMakeFiles/cmTC_a9dd8.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9dd8.dir/HAVE___UINT16.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a9dd8.dir/HAVE___UINT16.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+   23 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+   23 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:26:12: note: in expansion of macro ‘SIZE’
+   26 |   ('0' + ((SIZE / 1000)%10)),
+      |            ^~~~
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+   23 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:12: note: in expansion of macro ‘SIZE’
+   27 |   ('0' + ((SIZE / 100)%10)),
+      |            ^~~~
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+   23 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:28:12: note: in expansion of macro ‘SIZE’
+   28 |   ('0' + ((SIZE / 10)%10)),
+      |            ^~~~
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+   23 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' +  (SIZE    % 10)),
+      |            ^~~~
+make[4]: *** [CMakeFiles/cmTC_a9dd8.dir/build.make:66: CMakeFiles/cmTC_a9dd8.dir/HAVE___UINT16.c.o] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_a9dd8/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function dladdr exists failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d66c4/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d66c4.dir/build.make CMakeFiles/cmTC_d66c4.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d66c4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dladdr   -o CMakeFiles/cmTC_d66c4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d66c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d66c4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dladdr    -rdynamic CMakeFiles/cmTC_d66c4.dir/CheckFunctionExists.c.o  -o cmTC_d66c4 
+/usr/bin/ld: CMakeFiles/cmTC_d66c4.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `dladdr'
+collect2: error: ld returned 1 exit status
+make[4]: *** [CMakeFiles/cmTC_d66c4.dir/build.make:87: cmTC_d66c4] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_d66c4/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_46de0/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_46de0.dir/build.make CMakeFiles/cmTC_46de0.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46de0.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS   -Wunnamed-type-template-args -o CMakeFiles/cmTC_46de0.dir/src.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wunnamed-type-template-args'
+make[4]: *** [CMakeFiles/cmTC_46de0.dir/build.make:66: CMakeFiles/cmTC_46de0.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_46de0/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the function get_static_proc_name exists in the unwind failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c9e5f/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c9e5f.dir/build.make CMakeFiles/cmTC_c9e5f.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9e5f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=get_static_proc_name   -o CMakeFiles/cmTC_c9e5f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c9e5f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9e5f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=get_static_proc_name    -rdynamic CMakeFiles/cmTC_c9e5f.dir/CheckFunctionExists.c.o  -o cmTC_c9e5f  -lunwind 
+/usr/bin/ld: cannot find -lunwind
+collect2: error: ld returned 1 exit status
+make[4]: *** [CMakeFiles/cmTC_c9e5f.dir/build.make:87: cmTC_c9e5f] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_c9e5f/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function UnDecorateSymbolName exists in the dbghelp failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e0c0b/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e0c0b.dir/build.make CMakeFiles/cmTC_e0c0b.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0c0b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName   -o CMakeFiles/cmTC_e0c0b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0c0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0c0b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName    -rdynamic CMakeFiles/cmTC_e0c0b.dir/CheckFunctionExists.c.o  -o cmTC_e0c0b  -ldbghelp 
+/usr/bin/ld: cannot find -ldbghelp
+collect2: error: ld returned 1 exit status
+make[4]: *** [CMakeFiles/cmTC_e0c0b.dir/build.make:87: cmTC_e0c0b] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_e0c0b/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_RWLOCK failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c5904/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c5904.dir/build.make CMakeFiles/cmTC_c5904.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5904.dir/src.c.o
+/usr/bin/cc   -DHAVE_RWLOCK   -o CMakeFiles/cmTC_c5904.dir/src.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c5904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5904.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_RWLOCK    -rdynamic CMakeFiles/cmTC_c5904.dir/src.c.o  -o cmTC_c5904 
+/usr/bin/ld: CMakeFiles/cmTC_c5904.dir/src.c.o: in function `main':
+src.c:(.text+0x28): undefined reference to `pthread_rwlock_init'
+/usr/bin/ld: src.c:(.text+0x34): undefined reference to `pthread_rwlock_rdlock'
+collect2: error: ld returned 1 exit status
+make[4]: *** [CMakeFiles/cmTC_c5904.dir/build.make:87: cmTC_c5904] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_c5904/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#define _XOPEN_SOURCE 500
+#include <pthread.h>
+int main(void)
+{
+  pthread_rwlock_t l;
+  pthread_rwlock_init(&l, NULL);
+  pthread_rwlock_rdlock(&l);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91528/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_91528.dir/build.make CMakeFiles/cmTC_91528.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91528.dir/src.c.o
+/usr/bin/cc   -DHAVE___DECLSPEC   -o CMakeFiles/cmTC_91528.dir/src.c.o   -c /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.c
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | __declspec(selectany) int a;
+      | ^~~~~~~~~~
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.c: In function ‘__declspec’:
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.c:3:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+    3 | int main(void) { return 0; }
+      |                ^
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.c:2:1: warning: type of ‘selectany’ defaults to ‘int’ [-Wimplicit-int]
+    2 | __declspec(selectany) int a;
+      | ^~~~~~~~~~
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.c:2:27: error: declaration for parameter ‘a’ but no such parameter
+    2 | __declspec(selectany) int a;
+      |                           ^
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.c:4: error: expected ‘{’ at end of input
+    4 | 
+      | 
+make[4]: *** [CMakeFiles/cmTC_91528.dir/build.make:66: CMakeFiles/cmTC_91528.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_91528/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ec7cc/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ec7cc.dir/build.make CMakeFiles/cmTC_ec7cc.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ec7cc.dir/src.cxx.o
+/usr/bin/c++    -DSTL_NO_NAMESPACE   -o CMakeFiles/cmTC_ec7cc.dir/src.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.cxx
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.cxx:3:1: error: ‘vector’ does not name a type
+    3 | vector<int> t; int main() { }
+      | ^~~~~~
+make[4]: *** [CMakeFiles/cmTC_ec7cc.dir/build.make:66: CMakeFiles/cmTC_ec7cc.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_ec7cc/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_MSVC_TLS failed with the following output:
+Change Dir: /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ed66/fast && make[3]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7ed66.dir/build.make CMakeFiles/cmTC_7ed66.dir/build
+make[4]: Entering directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7ed66.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_MSVC_TLS   -o CMakeFiles/cmTC_7ed66.dir/src.cxx.o -c /home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.cxx
+/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+    2 | __declspec(thread) int tls;
+      |           ^
+make[4]: *** [CMakeFiles/cmTC_7ed66.dir/build.make:66: CMakeFiles/cmTC_7ed66.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_7ed66/fast] Error 2
+make[3]: Leaving directory '/home/moshe/alpaca-trade-api-cpp/alpaca/build/deps/glog_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+__declspec(thread) int tls;
+int main() { }
+
